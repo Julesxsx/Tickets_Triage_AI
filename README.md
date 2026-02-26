@@ -1,8 +1,10 @@
 🎫 Enterprise AI Ticket Triage (Local SLM)
+
 A production-ready customer support classification engine that uses a local Small Language Model (SLM) to automate intent detection, priority assignment, and sentiment analysis.
 
 
 💡 The Core Problem
+
 Many public support datasets (like those on Kaggle) rely on repetitive templates (e.g., "I am having an issue with {product}") that don't reflect the messy, emotional, and typo-ridden reality of human communication.
 
 This project solves this by:
@@ -15,6 +17,7 @@ Strict Data Contracts: Using Pydantic to enforce structured JSON outputs, ensuri
 
 
 🛠️ Tech Stack
+
 LLM: Phi-4 Mini (3.8B) via Ollama
 
 Language: Python 3.10+
@@ -27,6 +30,7 @@ Visualization: Seaborn, Matplotlib
 
 
 📈 Performance & Robustness
+
 I pivoted from the standard Kaggle Customer Support dataset after finding it lacked the linguistic variety needed for modern SLM benchmarking.
 
 "Hard Mode" Validation Results
