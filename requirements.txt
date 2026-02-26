@@ -1,0 +1,15 @@
+# Core AI & Logic
+ollama>=0.6.1
+pydantic>=2.12.5
+
+# Data Processing & Evaluation
+pandas>=2.2.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# Visualization (for the Evaluation Notebook)
+seaborn>=0.13.0
+matplotlib>=3.8.0
+
+# Environment & Utilities
+python-dotenv>=1.2.1

@@ -1,0 +1,19 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Data & Large Files
+# We want to keep the generation script, but not necessarily 200MB of results
+data/processed_results.csv
+data/synthetic_tickets_hard.csv
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment
+.env
